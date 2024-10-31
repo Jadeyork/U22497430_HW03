@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("PluginITP",["PluginDOMEventListener","promiseDone"],(function(a,b,c,d,e,f,g){function a(){if(!("hasStorageAccess"in document))return;c("promiseDone")(document.hasStorageAccess(),function(a){document.body&&!a&&d("PluginDOMEventListener").add(document.body,"click",function(){location.reload()})})}g.init=a}),98);
+__d("logReactStringRef",["FBLogger"],(function(a,b,c,d,e,f,g){"use strict";function a(a,b){c("FBLogger")("react_string_refs","component."+a).mustfix("Component `%s` used legacy string ref `%s`, this will stop working soon and needs to be migrated.",a,b)}g["default"]=a}),98);
